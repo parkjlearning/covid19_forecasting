@@ -11,9 +11,10 @@ seven days in 23 countries. We trained the models based on the features that are
 <img src="https://github.com/parkjlearning/covid19_forecasting/blob/main/snapshots/covid19_cases_in_5_countries.png" alt="covid19 cases in 5 countries" style="width:800px;height:250px;"></a>
 <div align="left">
 <br>This plot illustrates dynamic time-varying patterns of COVID-19 cases (cases per million) in 5 different countries. Our goal is to construct a variety of 
-models that predict future cases based on the prior cases and other relevant features like weather, datetime, mobility in various domains (e.g. parks, groceries, work places etc.).    
+models that predict future cases based on the prior cases and other relevant features like weather, datetime, mobility in various domains (e.g. parks, groceries, work places etc.). We built four different types of models - 1) SARIMAX, 2) XGboost regression, 3) Multi-layer perceptron, 4) Long Short Term Memory networks (LSTM). Each model was designed to predict cases in the next 7 days per a given day. Walk forward validation for time series data was used to test model 
+ performance on unseen data. As there existed weeks to months gap from the train dataset to the validation or the test dataset, respectively, we could see how 
+ the models perform when predicting cases far ahead into the future. 
 <br/>
-  
   
 ## Data
 Data from 23 countries comprising the features and target (daily cases per million per country) of our models are preprocessed and saved in a dictionary and 

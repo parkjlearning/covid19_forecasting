@@ -39,7 +39,7 @@ the models perform when predicting cases far ahead into the future.<br/>
  
 ## Data
 Data from 23 countries comprising the features and target (daily cases per million per country) of our models are preprocessed and saved in a dictionary and 
-  pickled as 'covid_country_data.pickle'. Please follow this link to download the preprocessed data: [link_to_preprocessed_data](https://drive.google.com/file/d/143kFTTcsRNak69rHZMPf0RBxFParhxZU/view)
+  pickled as 'covid_country_data.pickle'. Please follow this link to download the preprocessed data: [link_to_preprocessed_data](https://drive.google.com/file/d/143kFTTcsRNak69rHZMPf0RBxFParhxZU/view), which would be handy to kick-start building up on our codes. 
  
 ## Get Started
 

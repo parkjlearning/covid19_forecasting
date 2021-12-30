@@ -26,9 +26,15 @@ the models perform when predicting cases far ahead into the future.<br/>
 ## Model performance
 <div align="center">
 <a href="https://github.com/parkjlearning/covid19_forecasting/blob/main/Final_report_forecasting_COVID-19_cases.pdf">
+<img src="https://github.com/parkjlearning/covid19_forecasting/blob/main/snapshots/model_perform_val_IE.png" style="width:800px;height:300px;"></a>
+<div align="left">
+<br>Once each model is trained, their performance was tested on validation and test sets that were unseen by the model during training. The figure above illustrates the actual number of cases (blue) in Ireland and the cases predicted by the LSTM model (orange) on the validation set.<br/>  
+<div align="center">
+<a href="https://github.com/parkjlearning/covid19_forecasting/blob/main/Final_report_forecasting_COVID-19_cases.pdf">
 <img src="https://github.com/parkjlearning/covid19_forecasting/blob/main/snapshots/model_comparison.png" style="width:400px;height:300px;"></a>
 <div align="left">
- 
+<br>One major motivation of this project is to compare the predictability of different models, thus we compared how the four models performed on the validation and test sets. The plot above indicates that the LSTM (red) outperformed other model variants. Also, note that the XGBoost regression model (orange) showed a comparable performance, and thus it could be a good alternative at less computational cost than the LSTM model.<br/>
+
 
  
 ## Data

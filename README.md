@@ -35,8 +35,6 @@ the models perform when predicting cases far ahead into the future.<br/>
 <div align="left">
 <br>One major motivation of this project is to compare the predictability of different models, thus we compared how the four models performed on the validation and test sets. The plot above indicates that the LSTM (red) outperformed other model variants. Also, note that the XGBoost regression model (orange) showed a comparable performance, and thus it could be a good alternative at less computational cost than the LSTM model.<br/>
 
-
- 
 ## Get Started
 1. Download the data:    
 Data from 23 countries comprising the features and target (daily cases per million per country) of our models are preprocessed and saved in a dictionary and   pickled as 'covid_country_data.pickle'. Please follow this link to download the preprocessed data: [link_to_preprocessed_data](https://drive.google.com/file/d/143kFTTcsRNak69rHZMPf0RBxFParhxZU/view), which would be handy to kick-start building up on our codes. 
@@ -45,7 +43,10 @@ Data from 23 countries comprising the features and target (daily cases per milli
 git clone git@github.com:parkjlearning/covid19_forecasting.git
 ```
 
-
+## Additional info.
+:page_facing_up: Please find the final report of this project here: [Final report](https://github.com/parkjlearning/covid19_forecasting/blob/main/Final_report_forecasting_COVID-19_cases.pdf)  
+:computer: Please find the final presentation of this project here: [Final presentation](https://github.com/parkjlearning/covid19_forecasting/blob/main/Presentation_forecasting_COVID-19_cases.pdf)
+ 
 <!-- MARKDOWN LINKS & IMAGES -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/parkjlearning/covid19_forecasting/blob/main/LICENSE.txt
